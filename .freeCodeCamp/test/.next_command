@@ -132,3 +132,8 @@ psql -U postgres < universe.sql
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql -U postgres < universe.sql
+git remote -v
+git remote set-url origin https://github.com/chihoko12/learn-celestial-bodies-database
+git remote -v
